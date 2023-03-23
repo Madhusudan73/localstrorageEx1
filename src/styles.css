@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+.App.yellow {
+  background-image: linear-gradient(
+    to right bottom,
+    #ffef0a,
+    #f5ee2f,
+    #def277,
+    #f7f381,
+    #fcfaa9
+  );
+}
+.App.red {
+  background-image: linear-gradient(
+    to top,
+    #f50f07,
+    #f20b07,
+    #e64b49,
+    #f29c9b,
+    #ffd0c9
+  );
+}
+.App.purple {
+  background-image: linear-gradient(
+    to top,
+    #9000ff,
+    #de58ed,
+    #be7ae6,
+    #bc8de0,
+    #f6b8fc
+  );
+}
+.App.yellow {
+  background-image: linear-gradient(
+    to right bottom,
+    #ffef0a,
+    #f5ee2f,
+    #def277,
+    #f7f381,
+    #fcfaa9
+  );
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+.flex-child {
+  margin: 3vh auto 6px auto;
+  background-color: #b9fa8e;
+  border-radius: 6px;
+}
+.emoji {
+  font-size: 40pt;
+}
+button {
+  font-size: 19px;
+  padding: 6px 11px 6px;
+}
+button:hover {
+  background-color: #fc83aa;
+  color: #fcf7f9;
+  transition: color 201ms ease-in, background-color 301ms ease-in;
+}
